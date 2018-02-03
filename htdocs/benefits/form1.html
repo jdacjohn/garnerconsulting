@@ -1,0 +1,123 @@
+<html>
+<head>
+<meta name="keywords" content="GARNER CONSULTING, GARNER, CONSULTING, GARNER INSURANCE SERVICES, INSURANCE, HIPAA COMPLIANCE, EMPLOYEE BENEFITS, PLAN DESIGN, BENEFIT ANALYSIS, REGULATORY COMPLIANCE, COBRA, CLAIM, AUDIT, CLAIM AUDITS, ADMINISTRATION AUDITS, PLAN DOCUMENT REVIEW, FEASIBILITY STUDIES, SURVEYS, EMPLOYEE BENEFIT COMMUNICATION">
+
+<meta name="description" content="Garner Consulting is a HIPAA compliance and employee benefits consulting firm. The company consults to both public and private sector employers on a wide range of employee benefit issues. We offer brokerage services through our insurance agency division, Garner Insurance Services.">
+
+<!-- Garner Consulting is a HIPAA compliance and employee benefits consulting firm. The company consults to both public and private sector employers on a wide range of employee benefit issues. We offer brokerage services through our insurance agency division, Garner Insurance Services. GARNER CONSULTING, GARNER, CONSULTING, GARNER INSURANCE SERVICES, INSURANCE, HIPAA COMPLIANCE, EMPLOYEE BENEFITS, PLAN DESIGN, BENEFIT ANALYSIS, REGULATORY COMPLIANCE, COBRA, CLAIM, AUDIT, CLAIM AUDITS, ADMINISTRATION AUDITS, PLAN DOCUMENT REVIEW, FEASIBILITY STUDIES, SURVEYS, EMPLOYEE BENEFIT COMMUNICATION -->
+
+   <meta name="Author" content="Dilu">
+   <title>Garner Consulting [About Us]</title>
+
+<script LANGUAGE="JavaScript">
+<!--
+function Form_Validator(theForm)
+{
+
+//------ beginning of Name
+  if (theForm.Name.value == "")
+	{
+   	alert("Please enter your Name.");
+	theForm.Name.focus();
+	return (false);
+	}
+//------ end of Name section
+
+
+//------ beginning of Title
+  if (theForm.Title.value == "")
+	{
+   	alert("Please enter your Title.");
+	theForm.Title.focus();
+	return (false);
+	}
+//------ end of Title section
+
+//------ beginning of Company
+  if (theForm.Company.value == "")
+	{
+   	alert("Please enter your Company Name.");
+	theForm.Company.focus();
+	return (false);
+	}
+//------ end of Company section
+
+//------ beginning of Phone Number
+  if (theForm.Phone.value == "")
+	{
+   	alert("Please enter your Phone Number.");
+	theForm.Phone.focus();
+	return (false);
+	}
+//------ end of Phone Number section
+
+	if(theForm.Email.value == "")
+	{
+   	alert("Please enter the E-Mail Address.");
+	theForm.Email.focus();
+	return (false);
+	}
+
+	if(theForm.Email.value.indexOf('@', 0) == -1)
+	{
+   	alert("Please enter a valid E-Mail Address\nusing the @ symbol.");
+	theForm.Email.focus();
+	return (false);
+	}
+return true;
+}
+//-->
+</script>
+
+</HEAD>
+
+<form method="POST" action="http://server.scripthost.com/sForm2mail?garner" onsubmit="return Form_Validator(this)"><input type="hidden" name="send_to" value="info@garnerconsulting.com"><input type="hidden" name="send_subject" value="Registration Form - May 4, 2005">
+
+<body leftmargin="0" topmargin="20" marginwidth="0" marginheight="0" link="#0000FF" vlink="#ff0033" alink="#cc9900" bgcolor="#003464">
+
+
+				<TABLE BORDER=0 CELLPADDING=3 CELLSPACING=3 bgcolor="#ffffff" align="center">
+<TR height="30">
+<TD COLSPAN="2" valign="bottom">
+<font face="Helvetica, Arial, sans-serif" size="4" color="#006699"><b>Registration Form - May 4, 2005</font></b>
+</td></tr>
+
+<tr>
+<td colspan="2" valign="top"><img src="dottedline.gif" border="0"></td>
+</tr>
+
+<TR>
+					<TD COLSPAN=2><FONT FACE=ARIAL,HELVETICA>
+						<INPUT TYPE="checkbox" NAME="Title1" VALUE="Dr">Dr. 
+						<INPUT TYPE="checkbox" NAME="Title2" VALUE="Mr">Mr. 
+						<INPUT TYPE="checkbox" NAME="Title3" VALUE="Ms"> Ms.</TD>
+				</TR><TR>
+					<TD><FONT FACE=ARIAL,HELVETICA>Your name:</TD>
+					<TD><INPUT TYPE="text" NAME="Name" SIZE=40></TD>
+				</TR><TR>
+					<TD><FONT FACE=ARIAL,HELVETICA>  Title:</TD><TD><INPUT TYPE="text" NAME="Title" SIZE=40></TD>
+				</TR><TR>
+					<TD><FONT FACE=ARIAL,HELVETICA>Company:</TD>
+					<TD><INPUT TYPE="text" NAME="Company" SIZE=40></TD>
+				</TR><TR>
+					<TD><FONT FACE=ARIAL,HELVETICA>Mailing address:</TD>
+					<TD><INPUT TYPE="text" NAME="Address" SIZE=40></TD>
+				</TR><TR>
+					<TD><FONT FACE=ARIAL,HELVETICA>City, State, Zip:</TD>
+					<TD><INPUT TYPE="text" NAME="City State Zip" SIZE=40></TD>
+				</TR><TR>
+					<TD><FONT FACE=ARIAL,HELVETICA>Phone:</TD>
+					<TD><INPUT TYPE="text" NAME="Phone" SIZE=12></TD>
+				</TR><TR>
+					<TD><FONT FACE=ARIAL,HELVETICA>Fax:</TD>
+					<TD><INPUT TYPE="text" NAME="Fax" SIZE=12></TD>
+				</TR><TR>
+					<TD><FONT FACE=ARIAL,HELVETICA>E-mail address: (required)</TD>
+					<TD><INPUT TYPE="text" NAME="Email" SIZE=35></TD>
+				</TR><TR>
+					<TD COLSPAN=2 ALIGN=CENTER><FONT FACE=ARIAL,HELVETICA>
+					<INPUT TYPE="submit" VALUE="Submit request"> <INPUT TYPE="reset" VALUE="Clear form fields"></TD>
+				</TR></TABLE><P>
+</FORM>
+</body>
+</html>
